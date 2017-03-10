@@ -1,0 +1,148 @@
+body{
+    background:skyblue;
+  }
+
+.main_wrapper{
+    width:1000px;
+    height:auto;
+    margin: auto;
+}
+
+.header_wrapper{
+    width:1000px;
+    height:100px;
+    margin:auto;
+}
+
+#logo{
+    float: left;
+}
+
+#banner{
+    float:right;
+}
+
+.menubar{
+    width:1000px;
+    height:50px;
+    background: grey;
+    clear: both;
+    color:white;
+}
+
+#menu{
+    padding:0;
+    margin:0;
+    line-height:35px;
+}
+
+#menu li{
+    list-style: none;
+    display:inline;
+}
+
+#menu a{
+    text-decoration: none;
+    color:white;
+    padding:7px;
+    margin:8px;
+    font-size:18px;
+    font-family:comic sans ms;
+}
+
+#menu a:hover{
+     color:orange;
+     font-weight: bolder;
+     text-decoration:underline;
+    padding:7px;
+    margin:8px;
+    font-size:18px;
+    font-family:comic sans ms;
+}
+
+#form{
+    float:right;
+    padding-right:8px;
+     ;}
+
+.content_wrapper{
+    width:1000px; 
+    margin:auto;
+    background: pink;
+}
+
+#sidebar{
+    width:200px;   
+    float:left;
+    background: black;
+}
+
+#sidebar_title{
+    background:white;
+    color:black;
+    font-size:22px;
+    font-family: arial;
+    text-align: center;
+    padding:10px;
+}
+
+#cats{
+    padding: 0;
+    text-align: center;
+}
+
+#cats li{
+    list-style: none;
+    margin:5px;
+    padding:5px;
+}
+
+#cats a{
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    font-family: comic sans MS;
+}
+
+#cats a:hover{
+     color:orange;
+     font-weight: bolder;
+    font-size:20px;
+     text-decoration:underline;
+}
+
+#content_area{
+     width:800px;
+    float:right;
+    background:blue;
+    color: white;
+}
+
+#shopping_cart{
+    width:800px;
+    height:46px;
+    background: black;
+}
+#single_product{
+    text-align: center;
+    float:left;
+    margin: 30px 0 15px 30px;;
+    width:200px;
+    background: white;
+    border:3px solid black;
+}
+#detail_product{
+    text-align: center;
+    float:left;
+    margin:20px 0 20px 200px;
+    width:300px;
+    background: white;
+    border:3px solid black;
+}
+#footer{
+    width:1000px;
+    height:100px;
+    clear: both;
+    background:grey;
+    clear:both;
+}
